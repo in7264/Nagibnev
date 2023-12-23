@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Система обліку виробництва молочної продукції</title>
+</head>
+<body>
+    <header>
+        <h1>Система обліку виробництва молочної продукції</h1>
+    </header>
+    <section id="production-form">
+        <label for="product-name">Назва продукту:</label>
+        <input type="text" id="product-name" required>
+
+        <label for="quantity">Кількість:</label>
+        <input type="number" id="quantity" required>
+
+        <label for="production-date">Дата виробництва:</label>
+        <input type="date" id="production-date" required>
+
+        <button onclick="addProductionRecord()">Додати запис</button>
+    </section>
+
+    <section id="production-list">
+        <h2>Журнал виробництва</h2>
+        <ul id="records-list"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

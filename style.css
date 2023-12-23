@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#records-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.product-name {
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.details-list {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
