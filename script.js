@@ -53,7 +53,7 @@ function toggleProductDetails(index) {
             const subProductItems = Array.from({ length: details.quantity }, (_, i) => {
                 const subProductNumber = currentTime + i;
                 details.subProductNumbers.push(subProductNumber);
-                return `<li>${i + 1}. ${details.productName} - SubProduct: ${subProductNumber}</li>`;
+                return `<li>${i + 1}. ${details.productName} - Код продукту: ${subProductNumber}</li>`;
             });
             detailsList.innerHTML = subProductItems.join('');
         }
